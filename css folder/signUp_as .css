@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/sample.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+    backdrop-filter: blur(20px);
+}
+
+.form {
+    position: relative;
+    width:  700px;
+    background-color: rgba(255, 228, 196, 0.463);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.822);
+}
+
+.form .home {
+    position: absolute;
+    right: 20px;
+    top: 90px;
+}
+
+.form .home a i {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.form .home a i:hover {
+    color: rgb(0, 0, 0);
+}
+
+.form .logo {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.661);
+    display: flex;
+    justify-content: center;
+}
+
+.form .logo img {
+    width: 200px;
+}
+
+.form .text {
+    position: relative;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.756);
+    text-align: center;
+    margin: 30px 0 -30px 0;
+}
+
+.form .text h2 {
+    font-size: 30px;
+}
+
+.form .sort {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.tutor-student {
+    margin: 10px;
+}
+.tutor-student .box {
+    width: 250px;
+    height: 250px;
+    padding: 20px
+}
+
+.tutor-student a {
+    text-decoration: none;
+}
+ 
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutor-student a .box:hover {
+    box-shadow: 0 0 5px black;
+    border-radius: 50%;
+}
+
+.tutor-student a .box i {
+    font-size: 175px;
+    color: rgb(155, 101, 1);
+    margin: 0 auto;
+}
+.tutor-student a .box i:hover {
+}
+
+.tutor-student a .box i h2 {
+    text-align: center;
+    color: rgb(155, 101, 1);
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}

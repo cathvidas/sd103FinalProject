@@ -1,0 +1,25 @@
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+}
+
+.add-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0 0 5px rgb(95, 34, 0);
+    color: bisque;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -20px;
+    z-index: 99;
+}
+

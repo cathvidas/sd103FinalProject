@@ -1,0 +1,49 @@
+.dropdown-courses {
+    width: 100%;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0 5px 5px black;
+}
+
+.dropdown-courses .con {
+    position: sticky;
+    top: 120px;
+}
+
+
+.dropdown-courses ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.dropdown-courses ul li.active > ul {
+    display: initial;
+}
+
+.dropdown-courses ul li:hover > ul {
+    display: initial;
+}
+
+.dropdown-courses ul li a {
+    text-decoration: none;
+    color: black;
+}
+.dropdown-courses ul li a.active {
+    color: rgb(155, 101, 1);
+}
+
+.dropdown-courses ul li a:hover {
+    color: rgb(155, 101, 1);
+
+}
+.dropdown-courses ul li ul {
+    display: none;
+    margin-left: 50px;
+    position: relative;
+    left: 20px;
+}
+
+.dropdown-courses ul li ul li {
+    margin-top: 15px;
+    list-style: inside;
+}
